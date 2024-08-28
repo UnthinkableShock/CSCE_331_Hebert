@@ -1,0 +1,17 @@
+* {
+    box-sizing:border-box;
+    background-color: rgb(238, 238, 238);
+    font-size:larger;
+}
+body {
+    padding:5%;
+    .col {
+        background-color: white;
+        float:left;
+        width:50%;
+    }
+    .row {
+        background-color: white;
+        padding:5px;
+    }
+}
