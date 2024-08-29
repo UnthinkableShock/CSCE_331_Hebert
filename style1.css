@@ -1,21 +1,20 @@
 
 body {
     background-color:lightblue;
+    border-color:#000000;
+    margin:0;
+    padding:30px;
+    
+    border-width:20px;
+    border-style:inset;
     * {
         box-sizing:border-box;
-        background-color: rgb(238, 238, 238);
         font-size:large;
     }
     .col {
-        background-color: white;
         float:left;
         width:50%;
     }
-    .row {
-        background-color: white;
-    }
-    border-color:black;
-    border-width:10px;
-    border-style:outset;
+    
 }
 
