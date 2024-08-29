@@ -1,20 +1,54 @@
 
+* {
+    box-sizing:border-box;
+    font-size:large;
+}
+
 body {
-    background-color:lightblue;
-    border-color:#000000;
     margin:0;
-    padding:30px;
+    background-color:lightblue;
+}
+
+.mainbody {
+    margin-left: 200px;
+    padding: 25px;
     
-    border-width:20px;
-    border-style:inset;
-    * {
-        box-sizing:border-box;
-        font-size:large;
-    }
-    .col {
-        float:left;
-        width:50%;
-    }
-    
+}
+
+.navbar {
+    overflow:hidden;
+    position:fixed;
+    left:0;
+    height:100%;
+    width: 200px;
+    background-color:darkgray;
+    border-width:0px;
+    border-spacing:0px;
+}
+
+.link {
+    font-size:50px;
+}
+
+button {
+    width:200px;
+    height:75px;
+}
+
+.linkbox {
+    height:75px;
+}
+
+.navtable {
+    width:200px;
+    padding:0px;
+    border-width:0px;
+    border-spacing:0px;
+}
+.navtable_body {
+    width:200px;
+    padding:0px;
+    border-width:0px;
+    border-spacing:0px;
 }
 
