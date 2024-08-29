@@ -1,10 +1,11 @@
-* {
-    box-sizing:border-box;
-    background-color: rgb(238, 238, 238);
-    font-size:larger;
-}
+
 body {
-    padding:5%;
+    background-color:lightblue;
+    * {
+        box-sizing:border-box;
+        background-color: rgb(238, 238, 238);
+        font-size:large;
+    }
     .col {
         background-color: white;
         float:left;
@@ -12,6 +13,9 @@ body {
     }
     .row {
         background-color: white;
-        padding:5px;
     }
+    border-color:black;
+    border-width:10px;
+    border-style:outset;
 }
+
